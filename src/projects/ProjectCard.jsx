@@ -6,11 +6,11 @@ export default function ProjectCard({ img, title, link }) {
       rel="noopener noreferrer"
       className="block rounded-2xl overflow-hidden bg-black/60 hover:scale-105 transition"
     >
-      <img
-        src={img}
-        alt={title}
-        className="w-full h-[200px] object-cover"
-      />
+     <img
+  src={img}
+  alt={title}
+  className="w-full h-[180px] object-contain bg-black"
+/>
       <div className="p-4">
         <h3 className="text-white font-semibold">{title}</h3>
       </div>

@@ -1,7 +1,10 @@
 import { useState } from "react";
 import ProjectCard from "./ProjectCard";
 import EmptyCard from "./EmptyCard";
-
+import Ecommernace from '../Images/E.png'
+import Weather from '../Images/W.png'
+import Todo from '../Images/T.png'
+import Password from '../Images/P.png'
 export default function Projects() {
   const [activeTab, setActiveTab] = useState("tab1");
 
@@ -48,7 +51,7 @@ export default function Projects() {
         {activeTab === "tab1" && (
           <>
             <ProjectCard
-              img="/p1.jpg"
+              img={Ecommernace}
               title="Ecommerce Website"
               link="https://github.com/Sadachhena/Kart-E-Commerance"
             />
@@ -62,17 +65,17 @@ export default function Projects() {
         {activeTab === "tab2" && (
           <>
             <ProjectCard
-              img="/p2.jpg"
+              img={Password}
               title="Password Generator"
               link="https://github.com/Sadachhena/Random-Password-Generator"
             />
             <ProjectCard
-              img="/p3.jpg"
+              img={Weather}
               title="Weather App"
               link="https://github.com/Sadachhena/Weather-App"
             />
             <ProjectCard
-              img="/p4.jpg"
+              img={Todo}
               title="Todo List"
               link="https://github.com/Sadachhena/TODOLIST"
             />
