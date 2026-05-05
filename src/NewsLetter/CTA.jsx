@@ -21,13 +21,13 @@ export default function CTA() {
             Hire Me
           </a>
 
-          <a
-            href="/cv.pdf"
-            target="_blank"
-            className="border border-white px-6 py-3 rounded hover:bg-white hover:text-black transition"
-          >
-            Download CV
-          </a>
+         <a
+  href="/cv.pdf"
+  download="Sada-Hussain-CV.pdf"
+  className="border border-white px-6 py-3 rounded hover:bg-white hover:text-black transition"
+>
+  Download CV
+</a>
 
         </div>
       </div>
