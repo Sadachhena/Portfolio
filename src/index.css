@@ -55,3 +55,63 @@
   border-color: white;
   box-shadow: 0 0 10px rgba(255,255,255,0.3);
 }
+
+/* GLASS INPUT */
+.input-glass {
+  width: 100%;
+  padding: 14px 12px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  outline: none;
+  color: white;
+  font-size: 14px;
+  backdrop-filter: blur(10px);
+}
+
+/* FOCUS */
+.input-glass:focus {
+  border-color: #fff;
+  box-shadow: 0 0 0 2px rgba(255,255,255,0.25);
+}
+
+/* LABEL */
+.label-glass {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: rgba(255,255,255,0.7);
+  pointer-events: none;
+  transition: 0.3s ease;
+}
+
+/* FLOAT */
+.input-glass:focus + .label-glass,
+.input-glass:valid + .label-glass,
+textarea.input-glass:focus + .label-glass,
+textarea.input-glass:valid + .label-glass {
+  top: -8px;
+  left: 10px;
+  font-size: 12px;
+  color: white;
+  background: linear-gradient(to right, #7c3aed, #3b82f6);
+  padding: 0 6px;
+  border-radius: 4px;
+}
+
+/* BUTTON */
+.btn-glass {
+  background: white;
+  color: black;
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn-glass:hover {
+  transform: scale(1.05);
+  background: #e5e5e5;
+}

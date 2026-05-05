@@ -1,6 +1,6 @@
 export default function CTA() {
   return (
-    <section className="mt-24 px-6">
+    <section className="mt-24 px-6 relative z-10">
 
       <div className="max-w-6xl mx-auto rounded-[40px] p-10 md:p-16 bg-gradient-to-r from-purple-600 to-blue-600 text-white text-center">
 
@@ -13,6 +13,7 @@ export default function CTA() {
         </p>
 
         <div className="flex justify-center gap-4 flex-wrap">
+
           <a
             href="#contact"
             className="bg-white text-black px-6 py-3 rounded hover:scale-105 transition"
@@ -22,12 +23,13 @@ export default function CTA() {
 
           <a
             href="/cv.pdf"
+            target="_blank"
             className="border border-white px-6 py-3 rounded hover:bg-white hover:text-black transition"
           >
             Download CV
           </a>
-        </div>
 
+        </div>
       </div>
 
     </section>
