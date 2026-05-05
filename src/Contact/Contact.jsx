@@ -1,3 +1,4 @@
+import HeroImage from '../Images/HeroImage.png'
 export default function Contact() {
   return (
     <section className="mt-24 px-6">
@@ -9,9 +10,9 @@ export default function Contact() {
           {/* LEFT IMAGE */}
           <div className="hidden md:flex justify-center">
             <img
-              src="/contact.png"
+              src={HeroImage}
               alt="contact"
-              className="w-[350px]"
+              className="w-[450px] md:w-[950px]"
             />
           </div>
 
