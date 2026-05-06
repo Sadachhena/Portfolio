@@ -30,9 +30,15 @@ export default function Hero() {
           I build modern, responsive, and high-performance web applications.
         </p>
 
-        <button className="mt-6 border border-white/40 px-4 py-2 hover:bg-white hover:text-black">
-          Let’s Connect →
-        </button>
+       <button
+  onClick={() =>
+    window.location.href =
+      "mailto:sadachhena@gmail.com?subject=Project Inquiry&body=Hi Sada, I want to work with you."
+  }
+  className="mt-6 border border-white/40 px-4 py-2 hover:bg-white hover:text-black"
+>
+  Let’s Connect →
+</button>
       </div>
       <img src="src\assets\Hero\HeroImage.png" alt="" />
       {/* FIXED PART */}
