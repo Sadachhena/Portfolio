@@ -5,6 +5,8 @@ import Ecommernace from '../Images/E.png'
 import Weather from '../Images/W.png'
 import Todo from '../Images/T.png'
 import Password from '../Images/P.png'
+import Fastfood from '../Images/Fastfood.png'
+import Ngo from '../Images/Ngo.png'
 export default function Projects() {
   const [activeTab, setActiveTab] = useState("tab1");
 
@@ -55,8 +57,16 @@ export default function Projects() {
               title="Ecommerce Website"
               link="https://github.com/Sadachhena/Kart-E-Commerance"
             />
-            <EmptyCard />
-            <EmptyCard />
+           <ProjectCard
+              img={Fastfood}
+              title="Fast-Food"
+              link="https://github.com/Sadachhena/Fast-Food"
+            />
+           <ProjectCard
+              img={Ngo}
+              title="NGO-LIFE"
+              link="https://github.com/Sadachhena/NGO-LIFE"
+            />
             <EmptyCard />
           </>
         )}
