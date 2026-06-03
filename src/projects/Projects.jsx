@@ -76,7 +76,7 @@ export default function Projects() {
               <ProjectCard
               img={Grocfiy}
               title="Grocfiy Store"
-              link="https://github.com/Sadachhena/NGO-LIFE"
+              link="https://github.com/Sadachhena/Grocify-Food-Website"
             />
             <EmptyCard />
              <EmptyCard />
