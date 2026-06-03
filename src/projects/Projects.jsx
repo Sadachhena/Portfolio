@@ -7,6 +7,7 @@ import Todo from '../Images/T.png'
 import Password from '../Images/P.png'
 import Fastfood from '../Images/Fastfood.png'
 import Ngo from '../Images/Ngo.png'
+import Grocfiy from '../Images/Grocfiy.png'
 export default function Projects() {
   const [activeTab, setActiveTab] = useState("tab1");
 
@@ -52,22 +53,35 @@ export default function Projects() {
         {/* TAB 1 */}
         {activeTab === "tab1" && (
           <>
+          {/* {Ecommernace Store} */}
             <ProjectCard
               img={Ecommernace}
               title="Ecommerce Website"
               link="https://github.com/Sadachhena/Kart-E-Commerance"
             />
+           {/* {Fast Food Project} */}
            <ProjectCard
               img={Fastfood}
               title="Fast-Food"
               link="https://github.com/Sadachhena/Fast-Food"
             />
+          
+          {/* {Ngo Life Website} */}
            <ProjectCard
               img={Ngo}
               title="NGO-LIFE"
               link="https://github.com/Sadachhena/NGO-LIFE"
             />
+             {/* { Grocfiy Store} */}
+              <ProjectCard
+              img={Grocfiy}
+              title="Grocfiy Store"
+              link="https://github.com/Sadachhena/NGO-LIFE"
+            />
             <EmptyCard />
+             <EmptyCard />
+              <EmptyCard />
+               <EmptyCard />
           </>
         )}
 

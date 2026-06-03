@@ -3,7 +3,7 @@ import Heroimage from "../Hero/HeroImage.png";
 
 export default function Hero() {
   return (
-    <section className="relative z-10 max-w-7xl mx-auto px-6 md:px-10 mt-20 grid md:grid-cols-2 items-center gap-12">
+    <section className="relative z-10 max-w-7xl mx-auto px-6 md:px-10 mt-20 grid md:grid-cols-2 md:py-3  items-center gap-12">
 
       {/* LEFT CONTENT */}
       <div>
@@ -50,11 +50,13 @@ export default function Hero() {
         <div className="absolute w-[300px] h-[300px] md:w-[420px] md:h-[420px] bg-gradient-to-tr from-purple-600 to-blue-500 rounded-full opacity-30 blur-3xl"></div>
 
         {/* Image */}
-        <img
+      
+         <img
           src={Heroimage}
           alt="Hero"
-          className="relative w-[260px] md:w-[350px] rounded-2xl object-cover"
+          className="relative w-[260px] md:w-[550px]  rounded-2xl object-cover"
         />
+       
       </div>
 
     </section>
